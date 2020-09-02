@@ -1,0 +1,95 @@
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px black;
+    line-height: 30px;
+    
+}
+
+.header-left {
+    align-items: left;
+}
+
+.header-right {
+    align-items: right;
+}
+
+h1 {
+    font-size:1.5rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: .7rem;
+    font-weight: bold;
+    
+}
+
+h3 {
+    color: maroon;
+    font-size: .7rem;
+    text-align: left;
+}
+
+h4 {
+    line-height: 23px;
+    text-align: left;
+    font-size: 1.05rem;
+}
+
+p {
+    font-size: .9rem;
+    line-height: 20px;
+    text-align: left;
+    font-weight: normal;
+}
+
+main {
+    border: solid 1px black;
+    justify-content: center;
+    align-items: center;
+    width: 1100px;
+}
+
+.columns {
+    column-count: 3;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 40px;
+    min-height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+.features {
+    column-width: 200px;
+    border: solid 1px black;
+}
+
+.features-img1 {
+    max-width: 100%;
+}
+
+.reviews {
+    column-width: 200px;
+    border: solid 1px black;
+}
+
+.reviews-img1 {
+    max-width: 100%;
+}
+
+.news {
+    column-width: 200px;
+    border: solid 1px black;
+}
