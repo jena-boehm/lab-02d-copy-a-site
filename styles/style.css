@@ -5,21 +5,36 @@
     align-items: center;
 }
 
+main {
+    justify-content: center;
+    align-items: center;
+    width: 1100px;
+    position: relative;
+    top: 5px;
+    font-family: 'Syne', sans-serif;
+}
+
 header {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid 1px black;
     line-height: 30px;
+    padding: 10px;
     
 }
 
 .header-left {
     align-items: left;
+    font-size: .9rem;
 }
 
 .header-right {
     align-items: right;
+    padding: 0 0 0 250px;
+}
+
+.logo {
+    padding: 5px;
 }
 
 h1 {
@@ -30,6 +45,11 @@ h1 {
 h2 {
     font-size: .7rem;
     font-weight: bold;
+    display: inline;
+    position: relative;
+    top: -20px;
+    left: 20px;
+    
     
 }
 
@@ -48,7 +68,8 @@ h4 {
 h5 {
     line-height: 23px;
     text-align: left;
-    font-size: 1rem;
+    font-size: .9rem;
+    padding: 0 0 20px 0;
 }
 
 p {
@@ -58,20 +79,13 @@ p {
     font-weight: normal;
 }
 
-main {
-    border: solid 1px black;
-    justify-content: center;
-    align-items: center;
-    width: 1100px;
-}
-
 .columns {
     column-count: 3;
-    text-align: center;
+    text-align: left;
     font-weight: bold;
     font-size: 1.2rem;
     line-height: 40px;
-    min-height: 500px;
+    min-height: 570px;
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
     
@@ -95,6 +109,11 @@ main {
 
 .reviews-img1 {
     max-width: 100%;
+}
+
+.reviews-img2 {
+    max-width: 100%;
+    padding: 20px 0 0 0;
 }
 
 .news {
